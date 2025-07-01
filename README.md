@@ -25,25 +25,28 @@ Then watch it calculate how hard you’re about to get dunked on.
 
 ---
 
-## 🚀 Run It Locally
-
-```bash
+🚀 Run It Locally
+bash
+Copy
+Edit
 git clone https://github.com/zrob1122/RatioGPT.git
 cd RatioGPT
 npm install
-Create a .env.local file with:
+Create a file named .env.local in the root directory.
+
+Add your OpenAI API key to it like this:
 
 ini
 Copy
 Edit
-OPENAI_API_KEY=sk-...
-Then start the server:
+OPENAI_API_KEY=your-openai-key-here
+Start the development server:
 
 bash
 Copy
 Edit
 npm run dev
-Visit http://localhost:3000
+Then visit http://localhost:3000 in your browser.
 
 🤓 Why I Built This
 Honestly? To build something fun that actually calls an API, handles errors, and returns structured, formatted results, without looking like a tutorial. I wanted something:
