@@ -12,7 +12,7 @@ Ever wondered if your hot take is about to get you flamed?
 Try typing:  
 > *"Steph Curry is the greatest player in NBA history and it’s not close."*
 
-Then watch it calculate how hard you’re about to get dunked on.
+Then watch it calculate how hard you’re about to get dunked on (It's Jordan, c'mon).
 
 ---
 
@@ -26,9 +26,6 @@ Then watch it calculate how hard you’re about to get dunked on.
 ---
 
 🚀 Run It Locally
-bash
-Copy
-Edit
 git clone https://github.com/zrob1122/RatioGPT.git
 cd RatioGPT
 npm install
@@ -36,15 +33,9 @@ Create a file named .env.local in the root directory.
 
 Add your OpenAI API key to it like this:
 
-ini
-Copy
-Edit
 OPENAI_API_KEY=your-openai-key-here
 Start the development server:
 
-bash
-Copy
-Edit
 npm run dev
 Then visit http://localhost:3000 in your browser.
 
@@ -70,4 +61,4 @@ Slack/Twitter bot integration
 Burn risk meter (for especially cursed takes)
 
 ✌️ Made by Zachary Robertson
-GitHub | zrob1122@gmail.com 9hint, hint, you're here)
+GitHub (hint, hint, you're here)| zrob1414@gmail.com
